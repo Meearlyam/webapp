@@ -2,7 +2,5 @@ dist: xenial
 language: java
 jdk:
   - oraclejdk13
-install:
-  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 script:
   - mvn package
