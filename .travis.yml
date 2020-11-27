@@ -3,6 +3,12 @@ language: java
 jdk:
   - oraclejdk13
 
+services:
+  - docker
+
 install: true
 script:
   - mvn package
+
+after_success:
+  - sh .travis/deploy_dockerhub.sh
