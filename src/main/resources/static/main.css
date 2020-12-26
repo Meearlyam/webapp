@@ -1,4 +1,13 @@
 label {
-    font-family: "Segoe Script", monospace;
-    font-size: 38pt;
+    font-family: 'Asap', sans-serif;
+    font-size: 24pt;
+}
+
+div {
+    align-self: center;
+}
+
+input {
+    height: 30px;
+    width: 300px;
 }

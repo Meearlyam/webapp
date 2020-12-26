@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+wwwroot/*.js
+node_modules
+typings
